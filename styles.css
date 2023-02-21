@@ -1,0 +1,101 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+.support{
+    color: #952360;
+     border: 10px solid white;
+  border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.what{
+    color:#952360;
+}
+img {
+  border-radius: 300px;
+}
+
+h1 {
+  text-shadow: 2px 2px #50022B;
+}
+
+h1{
+   
+    font-family: 'Georgia', serif;
+    color: #952360;
+    display: flex;
+    justify-content: center;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+}
+
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:Center;
+   font-family: 'Georgia', serif;
+    color:white;
+    text-shadow: 2px 2px #373C6F;
+}
+p{
+      font-family: 'Lora', serif;
+     text-align:Center;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+   
+     text-align:Center;
+}
+
+
+.section{
+    font-family: 'Lora', serif;
+ border-width: 5px;
+ border-style:solid;
+    border-color:#FAD0CA;
+     text-align:Center;
+      display: flex;
+  justify-content: space-between;
+}
+body{
+    background-color:#FFF2F1;
+}
+.desc {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+     margin: 15px;
+    animation-name: example;
+  animation-duration: 25s;
+   
+}
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: pink;}
+}
+.info{
+    color:black;
+    margin: 15px;
+    padding: 10px;
+}
+.sup{
+    color:black;
+     margin: 15px;
+    padding: 10px;
+}
+.pet{
+    color: black;
+   margin: 15px;
+    padding: 10px;
+}
+h1:hover {
+  background-color: white;
+     border-radius: 10px;
+}
